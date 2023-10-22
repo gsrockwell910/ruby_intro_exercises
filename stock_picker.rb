@@ -4,7 +4,7 @@ def stock_picker(array)
   max_profit = 0
   days = nil
 
-  #compare each element of each array, probably a better way, look to optimize.
+  #compare each element of each array
   array.each_with_index do |buy, index1| 
    array.each_with_index do |sell, index2|
       profit = sell - buy
