@@ -25,4 +25,4 @@ answer = gets.chomp!
 print "Please enter a number (for no reason): "
 magic_number = gets.chomp!.to_i
 
-puts caesar_cipher(answer, magic_number)
+print caesar_cipher(answer, magic_number)
